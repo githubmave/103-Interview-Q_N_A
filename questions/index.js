@@ -9,31 +9,33 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const posts = {};
+const questions = {};
 
 app.get("/questions", (req, res) => {
   // res.send(posts);
-  res.send(r es.body.content)
+  res.send(questions);
 });
 
 app.post("/questions", async (req, res) => {
   const id = randomBytes(4).toString("hex");
-  const { content } = req.body;
+  const { detail } = req.body;
 
-  posts[id] = {
-    id,
-    content,
-  };
+      questions[id] = {
+        id,
+        detail,
+      };
 
   // await axios.post("http://event-bus-srv:4005/events", {
-  //   type: "PostCreated",
-  //   data: {
-  //     id,
-  //     title,
-  //   },
-  // });
+  await axios.post("http://localhost:4005/events", {
 
-  res.status(201).send(posts[id]);
+    type: "QuestionCreated",
+    data: {
+      id,
+      detail,
+    },
+  });
+
+  res.status(201).send(questions[id]);
 });
 
 app.post("/events", (req, res) => {
@@ -43,5 +45,5 @@ app.post("/events", (req, res) => {
 });
 
 app.listen(4000, () => {
-  console.log("Listening on 4000");
+  console.log("Listening on port 4000");
 });

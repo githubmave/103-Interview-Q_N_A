@@ -1,7 +1,7 @@
 import React, {useState,useEffect} from "react";
-import axios from "axios";
-// import AnswerCreate from "./AnswerCreate";
-// import AnswerList from "./AnswerList";
+// import axios from "axios";
+import axiosInstance from "./axiosConfig";
+
 interface quesType {
   id:number;
   question: string;
@@ -12,8 +12,18 @@ const QuestionList = () => {
   const fetchQuesList = async () => {
     // const res =await axios.get<quesType[]>("http://localhost:4000/questions")
     //                       .then((response)=>{setQuesList(response.data)});
+
     // setQuesList(res.data);
-    await axios.get<quesType[]>("http://localhost:4000/questions")
+    const instance = axios.create(
+      {
+          baseURL:"http://localhost:4000",
+          withCredentials:false,
+          headers: {
+            'Access-Control-Allow-Origin' : '*',
+            'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+          }
+      });
+    await axiosInstance.get<quesType[]>("/questions")
                .then((response)=>{setQuesList(response.data);
               })
                 .catch((error)=>{

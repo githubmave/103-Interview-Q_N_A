@@ -1,11 +1,6 @@
 import React,{useState} from "react";
 import axios from "axios";
 
-// interface quesType {
-//   id: number;
-//   question: string;
-// };
-
 const QuestionCreate = () => {
     const [question, setQuestion]=useState<string>("");
     const [id, setId]=useState<number>(0);

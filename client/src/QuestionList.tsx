@@ -1,9 +1,6 @@
 import React, {useState,useEffect} from "react";
 import axios from "axios";
 import AnswerCreate from "./AnswerCreate";
-// import AnswerList from "./AnswerList";
-// import AnswerCreate from './AnswerCreate';
-// import AnswerList from './AnswerList';
 
 interface quesType {
   id:number;
@@ -13,10 +10,9 @@ interface quesType {
 const QuestionList = () => {
   const [quesList,setQuesList]=useState<quesType[]>([]);
 
-
-
   const fetchQuesList = async () => {
-    const res =await axios.get<quesType[]>("http://localhost:4000/questions");
+      const res =await axios.get<quesType[]>("http://localhost:4002/questions");
+    // const res =await axios.get<quesType[]>("http://localhost:4000/questions");
     setQuesList(res.data);
   };
 

@@ -14,15 +14,16 @@ const QuestionList = () => {
     //                       .then((response)=>{setQuesList(response.data)});
 
     // setQuesList(res.data);
-    const instance = axios.create(
-      {
-          baseURL:"http://localhost:4000",
-          withCredentials:false,
-          headers: {
-            'Access-Control-Allow-Origin' : '*',
-            'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-          }
-      });
+    // const instance = axios.create(
+    //   {
+    //       baseURL:"http://localhost:4000",
+    //       withCredentials:false,
+    //       headers: {
+    //         'Access-Control-Allow-Origin' : '*',
+    //         'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+    //       }
+    //   });
+
     await axiosInstance.get<quesType[]>("/questions")
                .then((response)=>{setQuesList(response.data);
               })

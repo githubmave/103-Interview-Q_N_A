@@ -1,12 +1,12 @@
 import React, {useState,useEffect} from "react";
 import axios from "axios";
-import AnswerCreate from "./AnswerCreate";
+// import AnswerCreate from "./AnswerCreate";
 
 interface quesType {
   id:number;
   // question: string;
   detail: string;
-  answer:string;
+  // answer:string;
 };
 const QuestionList = () => {
   const [quesList,setQuesList]=useState<quesType[]>([]);
@@ -28,7 +28,7 @@ const QuestionList = () => {
         <div className="card-body">
           {/* <h3>{ques.question}</h3> */}
           <h3>{ques.detail}</h3>
-          <AnswerCreate quesId={ques.id}/>
+          {/* <AnswerCreate quesId={ques.id}/> */}
           {/* <AnswerList answers={ques.} /> */}
         </div>
       </div>

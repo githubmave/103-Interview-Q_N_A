@@ -4,7 +4,8 @@ import AnswerCreate from "./AnswerCreate";
 
 interface quesType {
   id:number;
-  question: string;
+  // question: string;
+  detail: string;
   answer:string;
 };
 const QuestionList = () => {
@@ -25,7 +26,8 @@ const QuestionList = () => {
     return(
       <div className="card" style={{width: "30%", marginBottom: "20%"}} key={ques.id}>
         <div className="card-body">
-          <h3>{ques.question}</h3>
+          {/* <h3>{ques.question}</h3> */}
+          <h3>{ques.detail}</h3>
           <AnswerCreate quesId={ques.id}/>
           {/* <AnswerList answers={ques.} /> */}
         </div>

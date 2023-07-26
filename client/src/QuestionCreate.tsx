@@ -4,7 +4,7 @@ import axios from "axios";
 const QuestionCreate = () => {
     // const [question, setQuestion]=useState<string>("");
     const [detail,setDetail]=useState<string>("");
-    const [id, setId]=useState<number>(0);
+    // const [id, setId]=useState<number>(0);
     
   const onSubmit =async (event: React.FormEvent<HTMLFormElement>) => {
     //  await axios.post<string>("http://localhost:4000/questions",{question,});

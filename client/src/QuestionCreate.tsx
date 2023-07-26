@@ -1,6 +1,6 @@
 import React,{useState} from "react";
-import axios from "axios";
-// import  axiosInstance from "./axiosConfig";
+// import axios from "axios";
+import  axiosInstance from "./axiosConfig";
 
 // interface quesType {
 //   id: number;
@@ -14,17 +14,17 @@ const QuestionCreate = () => {
   const onSubmit =async (event: React.FormEvent<HTMLFormElement>) => {
      event.preventDefault();
 
-     const instance = axios.create(
-      {
-          baseURL:"http://localhost:4000",
-          withCredentials:false,
-          headers: {
-            'Access-Control-Allow-Origin' : '*',
-            'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-          }
-      });
+    //  const instance = axios.create(
+    //   {
+    //       baseURL:"http://localhost:4000",
+    //       withCredentials:false,
+    //       headers: {
+    //         'Access-Control-Allow-Origin' : '*',
+    //         'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+    //       }
+    //   });
 
-    await instance.post<string>("/questions",{detail,}).catch((error)=>{console.log(error.message);
+    await axiosInstance.post<string>("/questions",{detail,}).catch((error)=>{console.log(error.message);
     });
 
      setDetail("");

@@ -1,32 +1,14 @@
 import React,{useState} from "react";
-// import axios from "axios";
-import  axiosInstance from "./axiosConfig";
-
-// interface quesType {
-//   id: number;
-//   question: string;
-// };
+import axios from "axios";
 
 const QuestionCreate = () => {
     const [detail, setDetail]=useState<string>("");
-    // const [id, setId]=useState<number>(0);
     
   const onSubmit =async (event: React.FormEvent<HTMLFormElement>) => {
      event.preventDefault();
 
-    //  const instance = axios.create(
-    //   {
-    //       baseURL:"http://localhost:4000",
-    //       withCredentials:false,
-    //       headers: {
-    //         'Access-Control-Allow-Origin' : '*',
-    //         'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-    //       }
-    //   });
-
-    await axiosInstance.post<string>("/questions",{detail,}).catch((error)=>{console.log(error.message);
-    });
-
+    await axios.post<string>("http://localhost:4000/questions",{detail,});
+    // await axios.post("http://localhost:4000/questions",{detail,});
      setDetail("");
   };
 

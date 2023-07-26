@@ -5,32 +5,19 @@ import axios from "axios";
 interface quesType {
   id:number;
   question: string;
-  answer:string;
+  // answer:string;
 };
 const QuestionList = () => {
   const [quesList,setQuesList]=useState<quesType[]>([]);
   const fetchQuesList = async () => {
-    // const res =await axios.get<quesType[]>("http://localhost:4000/questions")
-    //                       .then((response)=>{setQuesList(response.data)});
+    const res =await axios.get<quesType[]>("http://localhost:4002/questions");
+    // const res =await axios.get("http://localhost:4000/questions");
 
-    // setQuesList(res.data);
-    // const instance = axios.create(
-    //   {
-    //       baseURL:"http://localhost:4000",
-    //       withCredentials:false,
-    //       headers: {
-    //         'Access-Control-Allow-Origin' : '*',
-    //         'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-    //       }
-    //   });
-
-    await axios.get<quesType[]>("/questions")
-               .then((response)=>{setQuesList(response.data);
-              })
-                .catch((error)=>{
-                  alert(error);
-                });
+                          // .then((response)=>{setQuesList(response.data)});
+    setQuesList(res.data);
   };
+ 
+
   useEffect( () => {
     fetchQuesList();
   },[]);

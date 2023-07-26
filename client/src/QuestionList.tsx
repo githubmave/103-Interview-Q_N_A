@@ -4,11 +4,12 @@ import axios from "axios";
 
 interface quesType {
   id:number;
-  question: string;
-  // answer:string;
+  // question: string;
+  detail: string;
 };
 const QuestionList = () => {
   const [quesList,setQuesList]=useState<quesType[]>([]);
+
   const fetchQuesList = async () => {
     const res =await axios.get<quesType[]>("http://localhost:4002/questions");
     // const res =await axios.get("http://localhost:4000/questions");
@@ -24,8 +25,10 @@ const QuestionList = () => {
   const renderedQuestions = Object.values(quesList).map( (ques)=>{
     return(
       <div className="card" style={{width: "30%", marginBottom: "20%"}} key={ques.id}>
+
         <div className="card-body">
-          <h3>{ques.question}</h3>
+          {/* <h3>{ques.question}</h3> */}
+          <h3>{ques.detail}</h3>
           {/* <AnswerCreate quesId={ques.id}/> */}
           {/* <AnswerList /> */}
         </div>

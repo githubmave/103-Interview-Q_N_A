@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from "react";
-// import axios from "axios";
-import axiosInstance from "./axiosConfig";
+import axios from "axios";
+// import axiosInstance from "./axiosConfig";
 
 interface quesType {
   id:number;
@@ -24,7 +24,7 @@ const QuestionList = () => {
     //       }
     //   });
 
-    await axiosInstance.get<quesType[]>("/questions")
+    await axios.get<quesType[]>("/questions")
                .then((response)=>{setQuesList(response.data);
               })
                 .catch((error)=>{
@@ -34,7 +34,7 @@ const QuestionList = () => {
   useEffect( () => {
     fetchQuesList();
   },[]);
-  const renderedQuestions =quesList.map( (ques)=>{
+  const renderedQuestions = Object.values(quesList).map( (ques)=>{
     return(
       <div className="card" style={{width: "30%", marginBottom: "20%"}} key={ques.id}>
         <div className="card-body">

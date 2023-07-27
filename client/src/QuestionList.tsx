@@ -22,7 +22,7 @@ const QuestionList = () => {
   },[]);
 
 
-  const renderedQuestions =quesList.map( (ques)=>{
+  const renderedQuestions =Object.values(quesList).map( (ques)=>{
     return(
       <div className="card" style={{width: "30%", marginBottom: "20%"}} key={ques.id}>
         <div className="card-body">

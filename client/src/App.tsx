@@ -28,7 +28,7 @@
 
 import React from "react";
 import QuestionCreate from "./QuestionCreate";
-import QuestionList from "./QuestionList";
+// import QuestionList from "./QuestionList";
 import './App.css';
 
 const App = () => {
@@ -38,7 +38,7 @@ const App = () => {
       <QuestionCreate/>
       <hr />
       <h1>Questions</h1>
-      <QuestionList/>
+      {/* <QuestionList/> */}
     </div>
   );
 };

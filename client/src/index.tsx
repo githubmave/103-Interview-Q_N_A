@@ -1,9 +1,16 @@
+// import * as _ from 'lodash';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
 // import reportWebVitals from './reportWebVitals';
+
+// function component() {
+//   const element = document.createElement('div');
+//   element.innerHTML = _.join(['Hello','webpack'],' ');
+//   return element;
+// }
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

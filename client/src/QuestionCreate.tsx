@@ -5,7 +5,7 @@ const QuestionCreate = () => {
     const [detail, setDetail]=useState<string>("");
     
   const onSubmit =async (event: React.FormEvent<HTMLFormElement>) => {
-    //  event.preventDefault();
+     event.preventDefault();
 
     await axios.post<string>("http://localhost:4000/questions",{detail,});
     // await axios.post("http://localhost:4000/questions",{detail,});
@@ -23,7 +23,7 @@ return(
           className="form-control"
           />
       </div>
-      {/* <button className="btn btn-primary">Submit</button> */}
+      <button className="btn btn-primary">Submit</button>
       </form>
   </div>
   );

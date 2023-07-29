@@ -28,8 +28,8 @@
 
 import React from "react";
 import QuestionCreate from "./QuestionCreate";
-// import QuestionList from "./QuestionList";
-import './App.css';
+import QuestionList from "./QuestionList";
+// import './App.css';
 
 const App = () => {
   return (
@@ -38,7 +38,7 @@ const App = () => {
       <QuestionCreate/>
       <hr />
       <h1>Questions</h1>
-      {/* <QuestionList/> */}
+      <QuestionList/>
     </div>
   );
 };

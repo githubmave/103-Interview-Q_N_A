@@ -12,9 +12,7 @@ const QuestionList = () => {
 
   const fetchQuesList = async () => {
     const res =await axios.get<quesType[]>("http://localhost:4002/questions");
-    // const res =await axios.get("http://localhost:4000/questions");
-
-                          // .then((response)=>{setQuesList(response.data)});
+    
     setQuesList(res.data);
   };
  

@@ -1,17 +1,23 @@
 import React, {useState,useEffect} from "react";
 import axios from "axios";
-// import axiosInstance from "./axiosConfig";
+import {AnswerListProps} from './AnswerList';
+import {AnswerCreateProps} from  './AnswerCreate';
 
-interface quesType {
-  id:number;
-  // question: string;
-  detail: string;
+
+type QuestionListProps  = {
+  id:number
+  ans_contents: string[]
+  detail: string
+  AnswerCreate: React.ComponentType<AnswerCreateProps>
+  AnswerList: React.ComponentType<AnswerListProps>
+  
 };
-const QuestionList = () => {
-  const [quesList,setQuesList]=useState<quesType[]>([]);
+
+export const QuestionList = ({AnswerCreate, AnswerList }: QuestionListProps) => {
+  const [quesList,setQuesList]=useState<QuestionListProps[]>([]);
 
   const fetchQuesList = async () => {
-    const res =await axios.get<quesType[]>("http://localhost:4002/questions");
+    const res =await axios.get<QuestionListProps[]>("http://localhost:4002/questions");
     
     setQuesList(res.data);
   };
@@ -27,8 +33,8 @@ const QuestionList = () => {
         <div className="card-body">
           {/* <h3>{ques.question}</h3> */}
           <h3>{ques.detail}</h3>
-          {/* <AnswerCreate quesId={ques.id}/> */}
-          {/* <AnswerList /> */}
+          <AnswerCreate quesId={ques.id}/>
+          <AnswerList answerList ={ques.ans_contents}/>
         </div>
       </div>
 
@@ -41,4 +47,6 @@ const QuestionList = () => {
   );
 
 };
-export default QuestionList;
+
+// export default QuestionList;
+// export default class MyContainer extends React.Component<Props, {}> {}

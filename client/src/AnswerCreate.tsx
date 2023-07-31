@@ -7,7 +7,7 @@ export type AnswerCreateProps = {
   //  ans_cotent: string
 }
 
-export const AnswerCreate = ({ans_id,ans_content}:AnswerCreateProps) => {
+export const AnswerCreate = (props: AnswerCreateProps) => {
   const [content, setContent] = useState<string>("");
 
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {

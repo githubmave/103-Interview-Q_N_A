@@ -1,19 +1,17 @@
-import React, {useState,useEffect} from "react";
+import React, {useState,useEffect,FC} from "react";
 import axios from "axios";
-import {AnswerListProps} from './AnswerList';
-import {AnswerCreateProps} from  './AnswerCreate';
+import {IAnswer} from './AnswerInterface';
+import AnswerList from './AnswerList';
+import AnswerCreate from  './AnswerCreate';
 
 
-type QuestionListProps  = {
+export type QuestionListProps  = {
   id:number
-  ans_contents: string[]
   detail: string
-  AnswerCreate: React.ComponentType<AnswerCreateProps>
-  AnswerList: React.ComponentType<AnswerListProps>
-  
+  answers: IAnswer[]  
 };
 
-export const QuestionList = ({AnswerCreate, AnswerList }: QuestionListProps) => {
+const QuestionList: FC<QuestionListProps> = (props:QuestionListProps) => {
   const [quesList,setQuesList]=useState<QuestionListProps[]>([]);
 
   const fetchQuesList = async () => {
@@ -34,7 +32,7 @@ export const QuestionList = ({AnswerCreate, AnswerList }: QuestionListProps) => 
           {/* <h3>{ques.question}</h3> */}
           <h3>{ques.detail}</h3>
           <AnswerCreate quesId={ques.id}/>
-          <AnswerList answerList ={ques.ans_contents}/>
+          <AnswerList answerList ={ques.answers}/>
         </div>
       </div>
 
@@ -47,6 +45,4 @@ export const QuestionList = ({AnswerCreate, AnswerList }: QuestionListProps) => 
   );
 
 };
-
-// export default QuestionList;
-// export default class MyContainer extends React.Component<Props, {}> {}
+export default QuestionList;

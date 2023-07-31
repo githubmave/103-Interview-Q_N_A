@@ -28,4 +28,4 @@ export const AnswerList: FC<AnswerListProps> = ({answerList}: AnswerListProps): 
   return <ul>{renderedComments}</ul>;
 };
 
-// export default AnswerList;
+export default AnswerList;

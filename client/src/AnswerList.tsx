@@ -1,31 +1,28 @@
-import React from "react";
-// import {quesType} from './QuestionList';
-
+ import React, {FC} from "react";
+ import {IAnswer} from './AnswerInterface';
 
 export type AnswerListProps = {
-  // quesId: number;
-  answerList: string[];
-  // ans_content: string;
+  answerList: IAnswer[]
 
 }
 
-export const AnswerList = ({ quesId,answerList,ans_content}: AnswerListProps) => {
-  const renderedComments = ans_contents.map((ans_content) => {
-    let ans_content;
+export const AnswerList: FC<AnswerListProps> = ({answerList}: AnswerListProps): JSX.Element => {
+  const renderedComments = answerList.map((answer) => {
+    let content;
 
-    if (ans_content.status === "approved") {
-      content = ans_content.content;
+    if (answer.status === "approved") {
+      content = answer.content;
     }
 
-    if (comment.status === "pending") {
+    if (answer.status === "pending") {
       content = "This comment is awaiting moderation";
     }
 
-    if (comment.status === "rejected") {
+    if (answer.status === "rejected") {
       content = "This comment has been rejected";
     }
 
-    return <li key={comment.id}>{content}</li>;
+    return <li key={answer.id}>{content}</li>;
   });
 
   return <ul>{renderedComments}</ul>;

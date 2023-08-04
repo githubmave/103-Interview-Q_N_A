@@ -1,7 +1,7 @@
 #### Purpose :     
-#####. This App would assist hiring process
-#####. The app can compare different candidates’ answers against the same questions
-#####. Can compare answers of different questions came from one candidate
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This App would assist hiring process
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The app can compare different candidates’ answers against the same questions
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can compare answers of different questions came from one candidate
 
 
 

@@ -68,7 +68,7 @@
 
 ![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/1215ab7c-cffe-4f87-aec6-56c37c7dbfd6)
 
-![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/1aa08d5b-ebb5-430e-8540-dabdaa73ba97)
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/50df0a31-9720-4cef-b016-8ee89b5a7203)
 
 
    

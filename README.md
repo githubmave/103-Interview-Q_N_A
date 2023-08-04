@@ -1,46 +1,111 @@
-# Getting Started with Create React App
+#### Purpose :     
+#####. This App would assist hiring process
+#####. The app can compare different candidates’ answers against the same questions
+#####. Can compare answers of different questions came from one candidate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+	
+####  Prerequisite installation:
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . node.js                          
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . npm
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . react            
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . materialUI
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+####   Main Packages
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . UI:      &nbsp;&nbsp;&nbsp;&nbsp;       MaterialUI
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Front end: &nbsp;&nbsp;&nbsp;&nbsp;     React, react Hook
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Back end: &nbsp;&nbsp;&nbsp;&nbsp;      node.js, Knex.js
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Data storage:  &nbsp;&nbsp;&nbsp;&nbsp; SQLite &nbsp;&nbsp;&nbsp;&nbsp;   
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Tools: &nbsp;&nbsp;&nbsp;&nbsp; webpack, babel, npm 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+####  How to run
+##### npm install
+##### npm run dev
+##### npm run test
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### Compose an Interview Question
 
-### `npm run eject`
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/b2888f8a-c174-49a7-807a-a3cabc73f38d)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#####  Candidates answer the question
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/3c0ce6c7-a587-4ac0-9eef-002042657c4b)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##### Project tree
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/76cdea32-14eb-439c-ae7d-59f7203a08ad)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
+
+
+#### Solution Architect
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  System based on RESTful Architect: 
+
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/bcbf9738-cf58-4abc-b38e-e30f4e011ea2)
+
+
+####  Data flow in Front End
+
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/50cb0aa1-d008-4490-bef1-c1193e54367b)
+
+
+
+
+####  Use Question data to illustrates Data Flow from Front end To Back end to data storage  
+
+#####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Users Submit an Interview Question
+
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/08c85ba2-bcc7-472a-b1db-6504929ee837)
+
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/68526377-c16c-46de-b017-047f95037c2a)
+
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/6fe9f130-4a1c-4d36-aa69-73731b8c3341)
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

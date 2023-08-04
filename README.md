@@ -50,7 +50,7 @@
 #### Solution Architect
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  System based on RESTful Architect: 
 
-![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/bcbf9738-cf58-4abc-b38e-e30f4e011ea2)
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/34948afc-b1e7-4a33-b1e1-6c8a9aaf9eed)
 
 
 ####  Data flow in Front End
@@ -64,11 +64,11 @@
 
 #####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Users Submit an Interview Question
 
-![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/08c85ba2-bcc7-472a-b1db-6504929ee837)
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/a3ffbb9c-6053-4515-a0e1-377117d548f8)
 
-![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/68526377-c16c-46de-b017-047f95037c2a)
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/1215ab7c-cffe-4f87-aec6-56c37c7dbfd6)
 
-![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/6fe9f130-4a1c-4d36-aa69-73731b8c3341)
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/1aa08d5b-ebb5-430e-8540-dabdaa73ba97)
 
 
    

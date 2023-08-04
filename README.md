@@ -41,9 +41,6 @@
 
 
 
-##### Project tree
-
-![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/2cfabf46-4a2e-46f7-852a-bf533fb2d745)
 
 
 

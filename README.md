@@ -32,12 +32,12 @@
 
 ##### Compose an Interview Question
 
-![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/b2888f8a-c174-49a7-807a-a3cabc73f38d)
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/aeafb081-c994-49a2-bb89-4588b6e15153)
 
 
 #####  Candidates answer the question
 
-![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/3c0ce6c7-a587-4ac0-9eef-002042657c4b)
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/7555749a-df8d-4f96-af3d-a6818954d6b8)
 
 
 

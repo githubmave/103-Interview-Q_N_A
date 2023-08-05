@@ -18,7 +18,7 @@
 
 
 ####  Prerequisite installation:
-- * node.js                          
+-  node.js                          
 - npm
 - react            
 -  materialUI

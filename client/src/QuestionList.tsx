@@ -1,17 +1,20 @@
-import React, {useState,useEffect,FC} from "react";
+import * as React from "react";
+import { useState,useEffect, FC } from "react";
+// import { useState,useEffect,FC } from "react";
 import axios from "axios";
 import {IAnswer} from './AnswerInterface';
 import AnswerList from './AnswerList';
 import AnswerCreate from  './AnswerCreate';
 
 
-export type QuestionListProps  = {
-  id:number
-  detail: string
-  answers: IAnswer[]  
+interface QuestionListProps {
+  id?:number
+  detail?: string
+  answers?: IAnswer[]  
 };
 
-const QuestionList: FC<QuestionListProps> = (props:QuestionListProps) => {
+// export const QuestionList: FC<QuestionListProps> = (props:QuestionListProps) => {
+  export const QuestionList: FC<QuestionListProps> = (props:QuestionListProps) => {
   const [quesList,setQuesList]=useState<QuestionListProps[]>([]);
 
   const fetchQuesList = async () => {

@@ -1,4 +1,4 @@
-#### Purpose :     
+## Purpose :     
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This App would assist hiring process
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The app can compare different candidates’ answers against the same questions
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can compare answers of different questions came from one candidate
@@ -9,20 +9,20 @@
 
 
 
-####  Prerequisite installation:
+##  Prerequisite installation:
 -  node.js                          
 - npm
 - react            
 -  materialUI
 
-####   Main Packages
+##   Main Packages
 - UI:      &nbsp;&nbsp;&nbsp;&nbsp;       MaterialUI
 - Front end: &nbsp;&nbsp;&nbsp;&nbsp;     React, react Hook
 - Back end: &nbsp;&nbsp;&nbsp;&nbsp;      node.js, Knex.js
 - Data storage:  &nbsp;&nbsp;&nbsp;&nbsp; SQLite &nbsp;&nbsp;&nbsp;&nbsp;   
 - Tools: &nbsp;&nbsp;&nbsp;&nbsp; webpack, babel, npm 
 
-####  How to run
+##  How to run
 - npm install
 - npm run dev
 -  npm run test

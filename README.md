@@ -1,28 +1,31 @@
-## Purpose :     
+#### Purpose :     
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This App would assist hiring process
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The app can compare different candidates’ answers against the same questions
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can compare answers of different questions came from one candidate
 
 
++ ##### &nbsp;&nbsp;&nbsp;&nbsp;  The following is:  &nbsp;&nbsp;&nbsp;&nbsp;  A) Map for this system 's architect
+  ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  B)  Data Flow Chart for one use case
++ #####  &nbsp;&nbsp;&nbsp;&nbsp;  This App is to assist hiring process:
++ - The app can compare different candidates’ answers against the same questions
++ - Can compare answers of different questions came from one candidate
 
 
 
-
-
-##  Prerequisite installation:
+####  Prerequisite installation:
 -  node.js                          
 - npm
 - react            
 -  materialUI
 
-##   Main Packages
-- UI:      &nbsp;&nbsp;&nbsp;&nbsp;       MaterialUI
-- Front end: &nbsp;&nbsp;&nbsp;&nbsp;     React, react Hook
-- Back end: &nbsp;&nbsp;&nbsp;&nbsp;      node.js, Knex.js
-- Data storage:  &nbsp;&nbsp;&nbsp;&nbsp; SQLite &nbsp;&nbsp;&nbsp;&nbsp;   
+####   Main Packages
+- UI:          MaterialUI
+- Front end:    React, react Hook
+- Back end:      node.js, Knex.js
+- Data storage: SQLite &nbsp;&nbsp;&nbsp;&nbsp;   
 - Tools: &nbsp;&nbsp;&nbsp;&nbsp; webpack, babel, npm 
 
-##  How to run
+####  How to run
 - npm install
 - npm run dev
 -  npm run test

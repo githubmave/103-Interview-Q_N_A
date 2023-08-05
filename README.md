@@ -1,14 +1,11 @@
 #### Purpose :     
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This App would assist hiring process
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The app can compare different candidates’ answers against the same questions
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can compare answers of different questions came from one candidate
 
 
 + ##### &nbsp;&nbsp;&nbsp;&nbsp;  The following is:  &nbsp;&nbsp;&nbsp;&nbsp;  A) Map for this system 's architect
   ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  B)  Data Flow Chart for one use case
 + #####  &nbsp;&nbsp;&nbsp;&nbsp;  This App is to assist hiring process:
-+ - The app can compare different candidates’ answers against the same questions
-+ - Can compare answers of different questions came from one candidate
+ - The app can compare different candidates’ answers against the same questions
+ - Can compare answers of different questions came from one candidate
 
 
 

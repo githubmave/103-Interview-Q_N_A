@@ -17,6 +17,12 @@
 
 
 
+####  Prerequisite installation:
+- node.js                          
+- npm
+- react            
+-  materialUI
+
 ####   Main Packages
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . UI:      &nbsp;&nbsp;&nbsp;&nbsp;       MaterialUI
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Front end: &nbsp;&nbsp;&nbsp;&nbsp;     React, react Hook

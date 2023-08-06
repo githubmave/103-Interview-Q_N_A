@@ -48,8 +48,8 @@
 #### Solution Architect
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  System based on RESTful Architect: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/7986561f-c865-4dd3-9d3a-b79164085ff1)
-![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/cc26f544-c788-4db3-9d39-4d1a5397b440)
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/73b97b1d-abd7-4238-9f49-df2b149a3145)
+
 
 
 

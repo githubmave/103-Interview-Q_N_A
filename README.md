@@ -48,7 +48,9 @@
 #### Solution Architect
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  System based on RESTful Architect: 
 
-![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/34948afc-b1e7-4a33-b1e1-6c8a9aaf9eed)
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/7986561f-c865-4dd3-9d3a-b79164085ff1)
+![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/cc26f544-c788-4db3-9d39-4d1a5397b440)
+
 
 
 ####  Data flow in Front End

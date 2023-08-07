@@ -46,7 +46,7 @@
 
 
 #### Solution Architect
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  System based on RESTful Architect: 
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  System based on event-driven pattern: 
 
 ![image](https://github.com/githubmave/103-Interview-Q_N_A/assets/8073738/73b97b1d-abd7-4238-9f49-df2b149a3145)
 
